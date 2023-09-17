@@ -1,0 +1,31 @@
+{
+  "name": "kazai-chatbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon ./src/main.js",
+    "start": "cross-env NODE_ENV=production node ./src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^1.5.0",
+    "config": "^3.3.9",
+    "docker": "^1.0.0",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "git": "^0.1.5",
+    "make": "^0.8.1",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.7.1",
+    "telegraf": "^4.13.1"
+  },
+  "description": ""
+}
